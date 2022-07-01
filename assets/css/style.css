@@ -1,0 +1,14 @@
+body {
+    font-family: "Raleway", sans-serif !important;
+    background-color: #ff6900;
+  }
+  .navbar {
+    background-color: transparent !important;
+  }
+  .navbar-nav{
+    background-color: transparent;
+    text-align: center;
+  }
+
+
+  
