@@ -1,6 +1,6 @@
 body {
     font-family: "Raleway", sans-serif !important;
-    background-color: white;
+    background-color: #e68018;
   }
   .navbar {
     background-color: transparent !important;
@@ -16,4 +16,8 @@ body {
     padding: 10px;
     text-shadow: 2px 2px #000;
     color: #FFF;
+  }
+
+  #contacto {
+    background-color: #e68018;
   }
