@@ -31,40 +31,40 @@
 <body>
   <header>
     <div class="container">
-      <!-- Navbar (bootstrap) -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top w-100">
-        <a class="navbar-brand" href="#"><img width="230" height="79" src="assets/img/logo-blanco-retina.png" class="custom-logo" alt="Make HS" loading="lazy" itemprop="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Misión-Visión</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Proyecto Educativo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Matrículas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contáctenos</a>
-            </li>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Inicio</a>
-              <a class="dropdown-item" href="#">Misión-Visión</a>
-              <a class="dropdown-item" href="#">Proyecto Educativo</a>
-              <a class="dropdown-item" href="#">Matrículas</a>
-              <a class="dropdown-item" href="#">Contáctenos</a>
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img width="230" height="79" src="assets/img/logo-blanco-retina.png" class="custom-logo" alt="Make HS" loading="lazy" itemprop="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MAKE HS</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            </li>
-          </ul>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Misión-Visión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Proyecto Educativo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Matrículas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contáctenos</a>
+                </li>
+                
+              </ul>
+              
+            </div>
+          </div>
         </div>
       </nav>
     </div>
