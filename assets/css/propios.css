@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+.sero {padding: 0; margin: 0;}
+.line_foot { width: 100%; height: 87px; background: url(../img/linea-footer.png) center center;}
+.splash1 { background: url(../img/splash_up.png) bottom right no-repeat !important;}
+.splash2 { width: 350px; height: 90px; background: url(../img/splash_down.png) top left no-repeat !important; margin:-20px 0 0 0; z-index: 1; position: absolute; bottom: -1180px;}
+ul.pie2 {background: transparent;}
+ul.pie2 li {border-bottom: 1px solid #ccc}
+ul.pie2 li:last-child {border-bottom: none}
+.pie_wsp {font-size: 15px; color: #fff; text-align: center !important; margin: 13px auto !important; display: block}
+.pie_wsp_rrss {font-size: 14px; color: #fff; text-align: center !important; margin: 15px auto 10px auto !important; display: block}
+.hr_pie {margin: 9px auto; border-bottom: 1px solid #ccc}
+.pie_fin {color: #fff; margin-top: 10px;}
+ul.minibullets_home {background: transparent}
+ul.minibullets_home li{margin-right: 15px}
+ul.minibullets_home li:last-child {margin-right:0}
+ul.minibullets_home li .active {border: 2px solid red; color: #495057 !important; font-weight: bold}
+.menu_header {background: transparent}
+ul .menu_header {margin-top: 50px !important}
+ul .menu_header {padding: 30px !important}
+ul .menu_header li a{color: red !important}
+ul .menu_header li a:hover {border: 1px solid red !important;}
+/*tabla*/
+.air {padding: 15px 0}
+.bola {/*width: 150px;*/ height: 150px; display: block; background: url(../img/icon_curso.png) top center no-repeat !important; align-content: center; text-align: center; padding: 80px 0 0 0; vertical-align: top; }
+.bola span{ width: 30px; font-family: Helvetica, Arial,"sans-serif"; text-align: center !important; color: #fff; margin-top: 10px !important; }
+.detalle {font-family: Helvetica, Arial,"sans-serif"; text-align: center !important; color: #fff;font-size: 13px; padding: 5px 15px; border-radius: 30px !important; margin: 5px}
+.univ {background: #69b3bc}
+.carrera {background: #222133}
+.profesor {background: #808080}
+.horario {background: #4a4a52}
+/*bola_horas*/
+.modulos {
+	width: 100%;
+	display: block;
+	margin: 20px auto;
+}
+.modulos ul {margin:0 auto; padding: 0; text-align: center; align-content: center;}
+.modulos li {display: inline-block; margin: 0 0 0 0; float: none }
+.horas {width: 140px; height: 127px; background: url(../img/horas.png) top center no-repeat !important; align-content: center; text-align: center; vertical-align: top; padding: 0 15px 0 0}
+.horas p { width: 90%; font-family:Helvetica, Arial, Sans-Serif;; text-align: center !important; color: #222133; margin: 50px auto 0 auto !important; font-size: 60px; font-weight: bold; display: block; padding: 0; }
+.horas span{display: block; width: 90%; font-family: Helvetica, Arial, Sans-Serif;; text-align: center !important; color: #ffffff; margin: -15px auto 0 auto !important; font-size: 12px; padding: 0 }
+
+.participantes {width: 140px; height: 127px; background: url(../img/participantes.png) top center no-repeat !important; align-content: center; text-align: center; vertical-align: top; padding: 0 15px 0 0}
+.participantes  p { width: 90%; font-family:Helvetica, Arial, Sans-Serif;; text-align: center !important; color: #222133; margin: 52px auto 0 auto !important; font-size: 60px; font-weight: bold; display: block; padding: 0; }
+.participantes  span{display: block; width: 90%; font-family: Helvetica, Arial, Sans-Serif;; text-align: center !important; color: #ffffff; margin: -15px auto 0 auto !important; font-size: 12px; padding: 0 }
+
+.precio {width: 140px; height: 127px; background: url(../img/precio.png) top center no-repeat !important; align-content: center; text-align: center; vertical-align: top; padding: 0 15px 0 0}
+.precio  p { width: 90%; font-family:Helvetica, Arial, Sans-Serif;; text-align: center !important; color: #222133; margin: 50px auto 0 auto !important; font-size: 28px; font-weight: bold; display: block; padding: 0; }
+
+
+/*.me_interesa {background: #69b3bc; font-family: Helvetica, Arial,"sans-serif"; text-align: center !important; color: #fff;font-size: 16px; padding: 10px 25px; border-radius: 30px !important; margin: 60px 0 0 0}*/
+
+.me_interesa {background: #69b3bc;  color: #fff; font-size: 16px; text-decoration: none; padding: 8px 15px; border-radius: 20px !important; margin: 45px 15px 20px 0 !important;}
+.me_interesa a{ color: #fff !important; text-decoration: none }
+.me_interesa a:hover{ opacity: 0.7; color: #fff !important; text-decoration: none }
+
+.agregar_cursos {background: #222133; font-family: 'Varela Round', sans-serif; text-align: center !important; color: #fff; font-size: 16px; padding: 8px 15px; border-radius: 20px !important; margin: 5px}
+.agregar_cursos a{text-decoration: none; color: #fff}
+.agregar_cursos a:hover{ opacity: 0.7; color: #fff !important; text-decoration: none }
+
+.mass {width: 70px; height: 73px; border: 1px solid red; background: url(../img/mas.png) top center no-repeat !important;}
+.menos {width: 70px; height: 73; border: 1px solid red; background: url(../img/menos.png) top center no-repeat !important;}
+.frase_prefooter {padding: 40px 0;}
+.frase_prefooter h4{ font-size: 36px; text-align: center; line-height: 40px}
+.frase_prefooter p{font-size: 14px; text-align: center; margin-bottom: 25px }
+.frase_prefooter p a{font-family: 'Varela Round', sans-serif;  text-align: center !important; color: #fff; font-size: 30px; padding: 6px 20px; border-radius: 30px !important; background: #ffc135; margin: 20px auto !important; text-decoration: none}
+.frase_prefooter p a:hover { text-decoration: none; opacity: 0.8}
+.interior h1{ text-align: center; margin-top:140px;}
+.estrellas {margin: 0 2px}
+.pago {float: right; margin: 0 0 0 20px}
+.starshine {color: #feb101 !important;}
+.valor {width: 90%; margin: 30px}
+.valor span{color: #0f0e20}
+.disclaimer {background: #cccccc; padding: 20px; margin: 20px;}
+.disclaimer h4 {font-weight: bold; font-size: 21px; color:#232235}
+.disclaimer p { font-family: Helvetica, Arial," sans-serif"; font-size: 11px; color:#232235; text-align: justify; text-align-last: left; line-height: 16px;}
+.bg1 {width: 100%; height: 335px; background: url(../img/bg1.png) bottom center no-repeat !important; }
+.bg2 {width: 100%; height: 246px; background: url(../img/bg2.png) bottom center no-repeat !important; }
+.caja-iconos-ocultos{
+	width:730px;
+	height:150px;
+	text-align: center;
+	}
+#panel-icon {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+	background: #ebebeb;
+}
+.slider-icon {
+	margin: 0;
+	padding: 0;
+	background: pink;
+}
+.btnnn {
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+		background: violet;
+	border: 1px solid red;
+}
+.activo {
+		width:80px;
+	height:80px;
+	background: red;
+}
+.texto-footer {text-align: center !important}
+@media (max-width: 960px) {
+	.splash1 {background:none !important;}
+	.splash2 {background:none !important;}
+	.line_foot {display: none !important;}
+}
+
+/*NUEVOS*/
+.disclaimer2{
+	padding: 7px;
+	width: 100%; height: 100%;
+	border-radius: 50px;
+	background: #ccc;
+	vertical-align: middle !important;
+}
+.disclaimer2 img{
+	float: left;
+}
+.disclaimer2 p{
+	font-size: 10px;
+	line-height: 15px;
+	text-align: justify;
+	text-align-last: left;
+	vertical-align: middle;
+	margin: 10px;
+	color: #282828;
+}
+.faq{
+	padding: 7px;
+	width: 100%; height: 100%;
+	border-radius: 50px;
+	vertical-align: middle !important;
+	border: 1px solid #222133;
+	text-align: left;
+}
+.faq img{
+	float: left;
+}
+.faq p{
+	float: left;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #222133;
+}
+.faq_amarillo {color: #feb101}
+.amarillo_write {background: #feb101; padding: 5px 10px; color:#222133; border-radius: 15px }
+.amarillo_write a{color:#222133;}
+.amarillo_write a:hover {color:#000000; text-decoration: none}
+
+@media (max-width: 480px) {
+.faq img{
+	float:  none;
+		margin: 0 auto !important;
+	display: block
+}
+}
+/*27-02-2018 NUEVOS FORMULARIOS: */
+.perfil_new { background: none;}
+.perfil_new label { width: 30%; float: left !important; margin-bottom: 20px; text-align: left !important;  display: inline !important; color: #222133; font-family: 'Varela Round', sans-serif; font-weight: bolder; font-size: 21px;}
+.perfil_new input{ width: 70%; float: right; margin-bottom: 20px;  border: none; padding: 5px 30px 5px 50px;}
+.perfil_new .nombre {background:#E6E6E6  url(../img/form_name.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .mail {background:#E6E6E6  url(../img/form_mail.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .univ {background:#E6E6E6  url(../img/form_u.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .carrera {background:#E6E6E6  url(../img/form_carrera.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .telefono {background:#E6E6E6  url(../img/form_cel.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .rut {background:#E6E6E6  url(../img/form_rut.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .pass {background:#E6E6E6  url(../img/form_pass.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .boton {width: 100%; text-align: center !important;  display: inline !important; color: #222133; background: #FFB102; font-family: 'Varela Round', sans-serif; font-weight: bolder; font-size: 21px; border: none; border-radius: 30px; margin-top: 0; padding: 5px}
+
+
+.perfil_new .reprobacion {background:#E6E6E6  url(../img/form_reprobacion.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .imagen {background:#E6E6E6  url(../img/form_imagen.png) left center no-repeat; border-radius: 30px;}
+.perfil_new .video {background:#E6E6E6  url(../img/form_video.png) left center no-repeat; border-radius: 30px;}
+
+
+.atzul {color: #222133;}
+
+@media (max-width: 480px) {
+.perfil_new label {font-size: 15px;}
+
+}
